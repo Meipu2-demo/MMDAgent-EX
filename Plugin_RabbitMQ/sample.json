@@ -1,0 +1,52 @@
+{
+   "host" : "localhost",
+   "port" : 5672,
+   "user" : "guest",
+   "pass" : "guest",
+   "connection_list" : [
+      {
+         "name" : "cons1",
+         "type" : "direct",
+         "mode" : "consumer-basic",
+         "queue" : "hello"
+      },
+      {
+         "name" : "cons2",
+         "type" : "direct",
+         "mode" : "consumer",
+         "exchange" : "",
+         "bindingkey" : "hello"
+      },
+      {
+         "name" : "prod1",
+         "type" : "direct",
+         "mode" : "producer",
+         "exchange" : "",
+         "bindingkey" : "hello"
+      }
+   ],
+   "expression_list" : [
+      {"name" : "normal", "motion" : "xxx.vmd"},
+      {"name" : "joy", "motion" : "xxx.vmd"},
+      {"name" : "impressed", "motion" : "xxx.vmd"},
+      {"name" : "convinced", "motion" : "xxx.vmd"},
+      {"name" : "thinking", "motion" : "xxx.vmd"},
+      {"name" : "sleepy", "motion" : "xxx.vmd"},
+      {"name" : "suspicion", "motion" : "xxx.vmd"},
+      {"name" : "compassion", "motion" : "xxx.vmd"},
+      {"name" : "embarrassing", "motion" : "xxx.vmd"},
+      {"name" : "anger", "motion" : "xxx.vmd"}
+   ],
+   "action_list" : [
+      {"name" : "wait", "motion" : "xxx.vmd"},
+      {"name" : "listening", "motion" : "xxx.vmd"},
+      {"name" : "nod", "motion" : "xxx.vmd"},
+      {"name" : "head_tilt", "motion" : "xxx.vmd"},
+      {"name" : "thinking", "motion" : "xxx.vmd"},
+      {"name" : "light_greeting", "motion" : "xxx.vmd"},
+      {"name" : "greeting", "motion" : "xxx.vmd"},
+      {"name" : "wavehand", "motion" : "xxx.vmd"},
+      {"name" : "wavehands", "motion" : "xxx.vmd"},
+      {"name" : "lookaround", "motion" : "xxx.vmd"}
+   ]
+}
